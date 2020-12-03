@@ -2,6 +2,7 @@
 body, html {
     height: 100%;
     margin: 0;
+    font-family: 'Open Sans';
 }
 
 a { 
@@ -20,10 +21,10 @@ a:hover {
 
 .bg {
     /* The image used */
-    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
+    background-image: url("https://images.pexels.com/photos/2198400/pexels-photo-2198400.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
 
-    /* Half height */
-    height: 72%;
+    /* Image height */
+    height: 82%;
 
     /* Center and scale the image nicely */
     background-position: center;
