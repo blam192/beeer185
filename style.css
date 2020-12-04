@@ -32,11 +32,11 @@ a:hover {
   background-size: cover;
 }
 
-p {
-  color: white;
-}
-
 .font-14 {
   font-size: 14px;
 }
 
+.c1 {
+  float:left;
+  width:33.33%
+}
