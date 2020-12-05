@@ -25,7 +25,7 @@ const cocktailsArr = [
 cocktailsArr.forEach((arr) => {
   cocktailsString += `
   <div class="card" onmouseover="overlayActive(this)" onmouseout="overlayInactive(this)" style="min-width: 300px; margin-left: 4%; margin-right: 4%; overflow: hidden">
-    <div id="overlay" class="d-none"> 
+    <div id="overlay" class="d-none" style="cursor: pointer"> 
       <div class="d-flex justify-content-center align-items-center" onclick="hi()" style="width: 100%; height: 79.5%; position: absolute; background-color: rgba(255, 0, 0, 0.4);">
         <p class="text-white">${arr.overlayText}</p>
       </div>
