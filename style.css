@@ -34,10 +34,10 @@ a:hover {
 
 .bg2 {
   /* The image used */
-  background-image: url("https://images.pexels.com/photos/2198400/pexels-photo-2198400.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-image: url("https://images.unsplash.com/photo-1558201202-e65298e2e869?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjN8fGFsY29ob2x8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
 
   /* Image height */
-  height: 50%;
+  height: 45%;
 
   /* Center and scale the image nicely */
   background-position: center;
