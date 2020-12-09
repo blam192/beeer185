@@ -3,22 +3,22 @@ let cocktailsString = "";
 
 const cocktailsArr = [
   {
-    src: "https://via.placeholder.com/150",
+    src: "https://images.unsplash.com/photo-1562419988-e6157d80e9fc?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fG1pbW9zYSUyMGFsY29ob2x8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60",
     alt: "card image cap",
-    text: "Lorem, ipsum dolor.",
-    overlayText: "Lorem",
+    text: "Ginseng Zing",
+    overlayText: "ginseng vodka, orange juice, lime juice, spiced ginger simple syrup champagne, ginger beer/soda",
   },
   {
-    src: "https://via.placeholder.com/300",
+    src: "https://posanarestaurant.com/wp-content/uploads/2016/04/Ginseng-Sublime-Martini-Glass-Posana-200x300.jpg",
     alt: "card image cap",
-    text: "Lorem, ipsum dolor.",
-    overlayText: "Lorem",
+    text: "Ginseng Sublime Cocktail from Posana",
+    overlayText: "ginseng vodka, red beet juice, maple syrup, lemon juice",
   },
   {
-    src: "https://via.placeholder.com/150",
+    src: "https://melbournecocktails.com/wp-content/uploads/ginger-lemongrass-ginseng-portrait-200x300.jpg",
     alt: "card image cap",
-    text: "Pineapple.",
-    overlayText: "Lorem",
+    text: "Ginseng Ginger Spritz",
+    overlayText: " ginseng vodka, dry vermouth, lemongrass, fresh ginger, ginger syrup, ginger beer",
   },
 ];
 
