@@ -1,0 +1,148 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: "Open Sans";
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav div a {
+  margin-right: 17px;
+  margin-left: 17px;
+}
+
+a:hover {
+  color: blue;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("https://images.pexels.com/photos/2198400/pexels-photo-2198400.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+
+  /* Image height */
+  height: 84%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg2 {
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1558201202-e65298e2e869?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjN8fGFsY29ob2x8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
+
+  /* Image height */
+  height: 45%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+.h-89 {
+  height: 89%;
+}
+
+.c1 {
+  float: left;
+  width: 33.33%;
+}
+
+#tooltip {
+  background: #333;
+  color: white;
+  font-weight: bold;
+  padding: 4px 8px;
+  font-size: 13px;
+  border-radius: 4px;
+  display: none;
+  width: 150px;
+}
+
+#tooltip[data-show] {
+  display: block;
+}
+
+#arrow,
+#arrow::before {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  z-index: -1;
+}
+
+#arrow::before {
+  content: "";
+  transform: rotate(45deg);
+  background: #333;
+}
+
+#tooltip[data-popper-placement^="top"] > #arrow {
+  bottom: -4px;
+}
+
+#tooltip[data-popper-placement^="bottom"] > #arrow {
+  top: -4px;
+}
+
+#tooltip[data-popper-placement^="left"] > #arrow {
+  right: -4px;
+}
+
+#tooltip[data-popper-placement^="right"] > #arrow {
+  left: -4px;
+}
+
+#tooltip2 {
+  background: #333;
+  color: white;
+  font-weight: bold;
+  padding: 4px 8px;
+  font-size: 13px;
+  border-radius: 4px;
+  display: none;
+  width: 150px;
+}
+
+#tooltip2[data-show] {
+  display: block;
+}
+
+#arrow,
+#arrow::before {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  z-index: -1;
+}
+
+#arrow::before {
+  content: "";
+  transform: rotate(45deg);
+  background: #333;
+}
+
+#tooltip2[data-popper-placement^="top"] > #arrow {
+  bottom: -4px;
+}
+
+#tooltip2[data-popper-placement^="bottom"] > #arrow {
+  top: -4px;
+}
+
+#tooltip2[data-popper-placement^="left"] > #arrow {
+  right: -4px;
+}
+
+#tooltip2[data-popper-placement^="right"] > #arrow {
+  left: -4px;
+}
