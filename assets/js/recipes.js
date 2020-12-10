@@ -73,7 +73,7 @@ const foodArr = [
       "https://static01.nyt.com/images/2017/07/19/dining/26HOT1/19HOT1-articleLarge.jpg",
     alt: "card image cap",
     text: "Ginseng Chicken Soup",
-    overlayText: "Renshen™ Spirit ginseng vodka, a whole chicken, ...",
+    overlayText: "Renshen™ Spirit ginseng vodka, a whole chicken, (optional) dried shiitake mushroom, Goji berries, dried dates, ginger",
   },
   {
     src:
