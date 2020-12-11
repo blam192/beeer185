@@ -8,7 +8,7 @@ const teamsArr = [
     text: "Magnus Aston",
   },
   {
-    src: "assets/images/dc.jpg",
+    src: "assets/images/sara.png",
     text: "Sara Florez Brinez",
   },
   {
