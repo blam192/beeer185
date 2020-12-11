@@ -21,6 +21,14 @@ const navArr = [
     text: "Purchase Now",
   },
   {
+    href: "./tour.html",
+    text: "Events",
+  },
+  {
+    href: "./team.html",
+    text: "Our Team",
+  },
+  {
     href: "./contactus.html",
     text: "Contact Us",
   },
@@ -28,7 +36,7 @@ const navArr = [
 
 const socialMediaArr = [
   {
-    class: "fa-twitter",
+    class: "fa-tiktok",
   },
   {
     class: "fa-instagram",

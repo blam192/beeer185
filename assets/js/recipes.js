@@ -13,7 +13,7 @@ const cocktailsArr = [
     src:
       "https://posanarestaurant.com/wp-content/uploads/2016/04/Ginseng-Sublime-Martini-Glass-Posana-200x300.jpg",
     alt: "card image cap",
-    text: "Ginseng Sublime Cocktail from Posana",
+    text: "Beet-le Juice",
     overlayText:
       "Renshen™ Spirit ginseng vodka, red beet juice, maple syrup, lemon juice",
   },
@@ -73,7 +73,7 @@ const foodArr = [
       "https://static01.nyt.com/images/2017/07/19/dining/26HOT1/19HOT1-articleLarge.jpg",
     alt: "card image cap",
     text: "Ginseng Chicken Soup",
-    overlayText: "Renshen™ Spirit ginseng vodka,...",
+    overlayText: "Renshen™ Spirit ginseng vodka, a whole chicken, (optional) dried shiitake mushroom, Goji berries, dried dates, ginger",
   },
   {
     src:
