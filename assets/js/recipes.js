@@ -13,7 +13,7 @@ const cocktailsArr = [
     src:
       "https://posanarestaurant.com/wp-content/uploads/2016/04/Ginseng-Sublime-Martini-Glass-Posana-200x300.jpg",
     alt: "card image cap",
-    text: "Ginseng Sublime Cocktail from Posana",
+    text: "Beet-le Juice",
     overlayText:
       "Renshen™ Spirit ginseng vodka, red beet juice, maple syrup, lemon juice",
   },
