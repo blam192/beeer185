@@ -16,7 +16,7 @@ const teamsArr = [
     text: "Jocelyn Wang",
   },
   {
-    src: "assets/images/bernice.jpg",
+    src: "assets/images/bernice.JPG",
     text: "Bernice Lam",
   },
 ];
