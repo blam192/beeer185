@@ -31,7 +31,7 @@ cocktailsArr.forEach((arr) => {
   cocktailsString += `
   <div class="card" onmouseover="overlayActive(this)" onmouseout="overlayInactive(this)" style="width: 300px; margin-left: auto; margin-right: auto; overflow: hidden">
     <div id="overlay" class="d-none" style="cursor: pointer"> 
-      <div class="d-flex justify-content-center align-items-center px-2" style="width: 100%; height: 80%; position: absolute; background-color: rgba(255, 0, 0, 0.4);">
+      <div class="d-flex justify-content-center align-items-center px-2" style="width: 100%; height: 84%; position: absolute; background-color: rgba(255, 0, 0, 0.4);">
         <p class="text-white">${arr.overlayText}</p>
       </div>
     </div>
@@ -73,7 +73,8 @@ const foodArr = [
       "https://static01.nyt.com/images/2017/07/19/dining/26HOT1/19HOT1-articleLarge.jpg",
     alt: "card image cap",
     text: "Ginseng Chicken Soup",
-    overlayText: "Renshen™ Spirit ginseng vodka, a whole chicken, (optional) dried shiitake mushroom, Goji berries, dried dates, ginger",
+    overlayText:
+      "Renshen™ Spirit ginseng vodka, a whole chicken, (optional) dried shiitake mushroom, Goji berries, dried dates, ginger",
   },
   {
     src:
