@@ -41,11 +41,11 @@ const socialMediaArr = [
   },
   {
     class: "fa-instagram",
-    href: "assets/images/tiktok.png",
+    href: "assets/images/ig.png",
   },
   {
     class: "fa-facebook",
-    href: "assets/images/tiktok.png",
+    href: "assets/images/fb.png",
   },
 ];
 
