@@ -37,13 +37,15 @@ const navArr = [
 const socialMediaArr = [
   {
     class: "fa-tiktok",
+    href: "assets/images/tiktok.png",
   },
   {
     class: "fa-instagram",
+    href: "assets/images/tiktok.png",
   },
-
   {
     class: "fa-facebook",
+    href: "assets/images/tiktok.png",
   },
 ];
 
@@ -57,7 +59,7 @@ navLinks.insertAdjacentHTML("beforeend", navStr);
 
 socialMediaArr.forEach((socialMedia) => {
   socialMediaStr += `
-	<a class="mx-3" href="#"><i class="fab ${socialMedia.class} fa-lg"></i></a>
+	<a class="mx-3" href="${socialMedia.href}"><i class="fab ${socialMedia.class} fa-lg"></i></a>
 	`;
 });
 
